@@ -75,3 +75,24 @@ if __name__ == "__main__":
     # 'prefix' shows current path to the environment
     print("Virtual environment prefix:", sys.prefix)
     main()
+#     [project]
+# name = "ex1"
+# version = "0.1.0"
+# description = ""
+# authors = [
+#     {name = "danborys",email = "danborys@gmail.com"}
+# ]
+# requires-python = ">=3.13"
+# dependencies = [
+#     "pandas (>=3.0.0,<4.0.0)",
+#     "numpy (>=2.4.2,<3.0.0)",
+#     "requests (>=2.32.5,<3.0.0)",
+#     "matplotlib (>=3.10.8,<4.0.0)"
+# ]
+
+# [tool.poetry]
+# package-mode = false
+
+# [build-system]
+# requires = ["poetry-core>=2.0.0,<3.0.0"]
+# build-backend = "poetry.core.masonry.api"
